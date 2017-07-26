@@ -416,13 +416,20 @@ img::-moz-selection {
   padding: 100px 0;
 }
 
-footer.text-center {
-  position: absolute;
+div.footer {
+  background-color: #F05F40;
+  /* position: absolute;
   bottom: 0;
   width: 100%;
-  height: 60px;
-  background-color: #F05F40;
+   height: 100px;  */
 }
+
+div.container p.text-center {
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+}
+    
 
 /* p.text-center {
     background-color: #F05F40;
